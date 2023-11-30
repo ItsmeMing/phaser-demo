@@ -1,0 +1,188 @@
+{
+  "textures": [
+    {
+      "image": "player-katana-run.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 126,
+        "h": 61
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "player katana run 48x48-0.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 48,
+            "h": 48
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 11,
+            "w": 31,
+            "h": 30
+          },
+          "frame": {
+            "x": 1,
+            "y": 1,
+            "w": 31,
+            "h": 30
+          }
+        },
+        {
+          "filename": "player katana run 48x48-1.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 48,
+            "h": 48
+          },
+          "spriteSourceSize": {
+            "x": 7,
+            "y": 9,
+            "w": 33,
+            "h": 27
+          },
+          "frame": {
+            "x": 1,
+            "y": 33,
+            "w": 33,
+            "h": 27
+          }
+        },
+        {
+          "filename": "player katana run 48x48-6.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 48,
+            "h": 48
+          },
+          "spriteSourceSize": {
+            "x": 12,
+            "y": 11,
+            "w": 26,
+            "h": 30
+          },
+          "frame": {
+            "x": 34,
+            "y": 1,
+            "w": 26,
+            "h": 30
+          }
+        },
+        {
+          "filename": "player katana run 48x48-3.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 48,
+            "h": 48
+          },
+          "spriteSourceSize": {
+            "x": 6,
+            "y": 15,
+            "w": 30,
+            "h": 26
+          },
+          "frame": {
+            "x": 36,
+            "y": 33,
+            "w": 30,
+            "h": 26
+          }
+        },
+        {
+          "filename": "player katana run 48x48-2.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 48,
+            "h": 48
+          },
+          "spriteSourceSize": {
+            "x": 8,
+            "y": 12,
+            "w": 33,
+            "h": 29
+          },
+          "frame": {
+            "x": 62,
+            "y": 1,
+            "w": 33,
+            "h": 29
+          }
+        },
+        {
+          "filename": "player katana run 48x48-7.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 48,
+            "h": 48
+          },
+          "spriteSourceSize": {
+            "x": 14,
+            "y": 13,
+            "w": 22,
+            "h": 28
+          },
+          "frame": {
+            "x": 68,
+            "y": 32,
+            "w": 22,
+            "h": 28
+          }
+        },
+        {
+          "filename": "player katana run 48x48-5.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 48,
+            "h": 48
+          },
+          "spriteSourceSize": {
+            "x": 7,
+            "y": 9,
+            "w": 33,
+            "h": 25
+          },
+          "frame": {
+            "x": 92,
+            "y": 32,
+            "w": 33,
+            "h": 25
+          }
+        },
+        {
+          "filename": "player katana run 48x48-4.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 48,
+            "h": 48
+          },
+          "spriteSourceSize": {
+            "x": 9,
+            "y": 12,
+            "w": 27,
+            "h": 29
+          },
+          "frame": {
+            "x": 97,
+            "y": 1,
+            "w": 27,
+            "h": 29
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "3.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:be6d37a8790297e59b6d3350905987a1:9baa30c0cea737eefe18a852a8f5f29c:7c4c7b5ccf7c56f0abfd84d1b1460612$"
+  }
+}

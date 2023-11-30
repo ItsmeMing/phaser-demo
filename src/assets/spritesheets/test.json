@@ -1,0 +1,524 @@
+{
+	"textures": [
+		{
+			"image": "test.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1770,
+				"h": 1680
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "untame_wave-0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 295,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 590,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 885,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 1180,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 1475,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 0,
+						"y": 420,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 295,
+						"y": 420,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 590,
+						"y": 420,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 885,
+						"y": 420,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 1180,
+						"y": 420,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 1475,
+						"y": 420,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 0,
+						"y": 840,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 295,
+						"y": 840,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 590,
+						"y": 840,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 885,
+						"y": 840,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 1180,
+						"y": 840,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 1475,
+						"y": 840,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 0,
+						"y": 1260,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 295,
+						"y": 1260,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 590,
+						"y": 1260,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 885,
+						"y": 1260,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 1180,
+						"y": 1260,
+						"w": 295,
+						"h": 420
+					}
+				},
+				{
+					"filename": "untame_wave-23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 420
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 420
+					},
+					"frame": {
+						"x": 1475,
+						"y": 1260,
+						"w": 295,
+						"h": 420
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:bd0dfc0989fda914eb9d16db7fe5bd9b:1d86bbfadef170f6fde073ab65bd7354:02ab132358d6d8b512e80119463a8329$"
+	}
+}

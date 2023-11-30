@@ -1,0 +1,230 @@
+{
+	"textures": [
+		{
+			"image": "player-shoot.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 100,
+				"h": 98
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "player shoot 2H 48x48-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 9,
+						"w": 35,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 35,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player shoot 2H 48x48-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 9,
+						"w": 29,
+						"h": 32
+					},
+					"frame": {
+						"x": 38,
+						"y": 1,
+						"w": 29,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player shoot 2H 48x48-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 11,
+						"w": 34,
+						"h": 30
+					},
+					"frame": {
+						"x": 1,
+						"y": 35,
+						"w": 34,
+						"h": 30
+					}
+				},
+				{
+					"filename": "player shoot 2H 48x48-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 11,
+						"w": 34,
+						"h": 30
+					},
+					"frame": {
+						"x": 37,
+						"y": 35,
+						"w": 34,
+						"h": 30
+					}
+				},
+				{
+					"filename": "player shoot 2H 48x48-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 11,
+						"w": 34,
+						"h": 30
+					},
+					"frame": {
+						"x": 37,
+						"y": 35,
+						"w": 34,
+						"h": 30
+					}
+				},
+				{
+					"filename": "player shoot 2H 48x48-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 11,
+						"w": 30,
+						"h": 30
+					},
+					"frame": {
+						"x": 69,
+						"y": 1,
+						"w": 30,
+						"h": 30
+					}
+				},
+				{
+					"filename": "player shoot 2H 48x48-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 11,
+						"w": 33,
+						"h": 30
+					},
+					"frame": {
+						"x": 1,
+						"y": 67,
+						"w": 33,
+						"h": 30
+					}
+				},
+				{
+					"filename": "player shoot 2H 48x48-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 11,
+						"w": 32,
+						"h": 30
+					},
+					"frame": {
+						"x": 36,
+						"y": 67,
+						"w": 32,
+						"h": 30
+					}
+				},
+				{
+					"filename": "player shoot 2H 48x48-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 11,
+						"w": 28,
+						"h": 30
+					},
+					"frame": {
+						"x": 70,
+						"y": 67,
+						"w": 28,
+						"h": 30
+					}
+				},
+				{
+					"filename": "player shoot 2H 48x48-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 11,
+						"w": 28,
+						"h": 30
+					},
+					"frame": {
+						"x": 70,
+						"y": 67,
+						"w": 28,
+						"h": 30
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:eb5bc94f2ef0ee7219efbd4bad16df6f:cdbd33b4782cf6c3c6dfcf600c07e47c:d01ce634bd7e58977424c8dd96287ee6$"
+	}
+}
