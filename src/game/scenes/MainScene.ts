@@ -1,23 +1,40 @@
+import { ref } from 'vue'
+
 import Phaser from 'phaser'
 import attackSheathe from 'src/assets/spritesheets/attack-sheathe.png'
 import attackSheatheJSON from 'src/assets/spritesheets/attack-sheathe.json'
-import playerShoot from 'src/assets/spritesheets/player-shoot.png'
-import playerShootJSON from 'src/assets/spritesheets/player-shoot.json'
-import playerRun from 'src/assets/spritesheets/player-katana-run.png'
-import playerRunJSON from 'src/assets/spritesheets/player-katana-run.json'
+import shoot from 'src/assets/spritesheets/shoot.png'
+import shootJSON from 'src/assets/spritesheets/shoot.json'
+import run from 'src/assets/spritesheets/run.png'
+import runJSON from 'src/assets/spritesheets/run.json'
+import idle from 'src/assets/spritesheets/idle.png'
+import idleJSON from 'src/assets/spritesheets/idle.json'
+
+const isRunning = ref(false)
 
 export default class SceneMain extends Phaser.Scene {
-  private player
-  constructor(player: any) {
+  constructor() {
     super('SceneMain')
-    this.player = player
   }
   preload() {
-    this.load.atlas('player-shoot', playerShoot, playerShootJSON)
+    this.load.atlas('player-idle', idle, idleJSON)
+    this.load.atlas('player-shoot', shoot, shootJSON)
     this.load.atlas('player-attack', attackSheathe, attackSheatheJSON)
-    this.load.atlas('player-run', playerRun, playerRunJSON)
+    this.load.atlas('player-run', run, runJSON)
   }
   create() {
+    this.anims.create({
+      key: 'idle',
+      frames: this.anims.generateFrameNames('player-idle', {
+        start: 0,
+        end: 9,
+        zeroPad: 0,
+        prefix: 'Character Idle 48x48-',
+        suffix: '.png'
+      }),
+      repeat: -1,
+      frameRate: 24
+    })
     this.anims.create({
       key: 'shoot',
       frames: this.anims.generateFrameNames('player-shoot', {
@@ -52,25 +69,28 @@ export default class SceneMain extends Phaser.Scene {
       frameRate: 14
     })
     const space = this.input.keyboard?.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE)
-    let isRunning = false
-    this.player = this.add.sprite(200, 200, 'player-run')
-    console.log(this.player)
-    this.player.play('run')
+    const player = this.add.sprite(200, 200, 'player-idle')
+    player.play('idle')
     space?.on('down', (key, e) => {
-      this.player.stop('run')
-      this.player.play('attack')
+      if (player.anims.currentAnim?.key === 'attack') return
+      player.play('attack').on('animationcomplete', () => {
+        player.play('idle')
+      })
     })
-    this.input.keyboard.on('keydown-W', (event) => {
+    this.input.keyboard?.on('keydown-W', (event) => {
       // Play the 'walk' animation when the W key is pressed
-      if (!isRunning)
-        this.player.anims.play('run').on('animationcomplete', () => this.player.anims.play('run'))
-      isRunning = true
+      if (player.anims.currentAnim?.key === 'run') return
+      player.anims.play('run').on('animationcomplete', () => {
+        player.anims.play('run')
+      })
     })
 
-    this.input.keyboard.on('keyup-W', (event) => {
+    this.input.keyboard?.on('keyup-W', (event) => {
       // Stop the animation when the W key is released
-      this.player.anims.stop('run')
-      isRunning = false
+      if (player.anims.currentAnim?.key === 'run') {
+        player.play('idle')
+        isRunning.value = false
+      }
     })
   }
   update() {}
