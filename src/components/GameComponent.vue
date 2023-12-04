@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import PhaserContainer from './PhaserContainer.vue'
+interface Props {
+  scene: any
+}
+
+withDefaults(defineProps<Props>(), {})
 </script>
 
 <template>
   <Suspense>
-    <PhaserContainer />
+    <PhaserContainer :scene="scene" />
 
     <template #fallback>
       <div class="placeholder">Downloading ...</div>

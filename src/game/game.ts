@@ -1,20 +1,17 @@
 import Phaser from 'phaser'
-import SceneMain from './scenes/MainScene'
 
-function launch(container_id: string) {
+function launch(container_id: string, scene: any) {
   return new Phaser.Game({
-    type: Phaser.AUTO,
-    width: 400,
-    height: 800,
+    type: Phaser.CANVAS,
+    width: 320,
+    height: 240,
     parent: container_id,
+    pixelArt: true,
     physics: {
-      default: 'arcade',
-      arcade: {
-        gravity: { y: 300 },
-        debug: false
-      }
+      default: 'arcade'
     },
-    scene: [SceneMain]
+    banner: false,
+    scene: [scene]
   })
 }
 
