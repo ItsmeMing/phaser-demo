@@ -9,10 +9,10 @@ export default class SceneMain2 extends Phaser.Scene {
     super('SceneMain')
   }
   preload() {
-    this.load.atlas('player-idle', 'assets/spritesheets/idle.png', 'assets/spritesheets/idle.json')
-    this.load.atlas('player-shoot', 'assets/spritesheets/shoot.png', 'assets/spritesheets/shoot.json')
-    this.load.atlas('player-attack', 'assets/spritesheets/attack-sheathe.png', 'assets/spritesheets/attack-sheathe.json')
-    this.load.atlas('player-run', 'assets/spritesheets/run.png', 'src/assets/spritesheets/run.json')
+    this.load.atlas('player-idle', 'src/assets/spritesheets/idle.png', 'src/assets/spritesheets/idle.json')
+    this.load.atlas('player-shoot', 'src/assets/spritesheets/shoot.png', 'src/assets/spritesheets/shoot.json')
+    this.load.atlas('player-attack', 'src/assets/spritesheets/attack-sheathe.png', 'src/assets/spritesheets/attack-sheathe.json')
+    this.load.atlas('player-run', 'src/assets/spritesheets/run.png', 'src/src/assets/spritesheets/run.json')
   }
   create() {
     this.anims.create({
