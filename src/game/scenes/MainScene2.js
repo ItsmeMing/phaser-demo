@@ -1,14 +1,6 @@
 import { ref } from 'vue'
 
 import Phaser from 'phaser'
-import attackSheathe from 'src/assets/spritesheets/attack-sheathe.png'
-import attackSheatheJSON from 'src/assets/spritesheets/attack-sheathe.json'
-import shoot from 'src/assets/spritesheets/shoot.png'
-import shootJSON from 'src/assets/spritesheets/shoot.json'
-import run from 'src/assets/spritesheets/run.png'
-import runJSON from 'src/assets/spritesheets/run.json'
-import idle from 'src/assets/spritesheets/idle.png'
-import idleJSON from 'src/assets/spritesheets/idle.json'
 
 const isRunning = ref(false)
 
@@ -17,10 +9,10 @@ export default class SceneMain2 extends Phaser.Scene {
     super('SceneMain')
   }
   preload() {
-    this.load.atlas('player-idle', idle, idleJSON)
-    this.load.atlas('player-shoot', shoot, shootJSON)
-    this.load.atlas('player-attack', attackSheathe, attackSheatheJSON)
-    this.load.atlas('player-run', run, runJSON)
+    this.load.atlas('player-idle', 'assets/spritesheets/idle.png', 'assets/spritesheets/idle.json')
+    this.load.atlas('player-shoot', 'assets/spritesheets/shoot.png', 'assets/spritesheets/shoot.json')
+    this.load.atlas('player-attack', 'assets/spritesheets/attack-sheathe.png', 'assets/spritesheets/attack-sheathe.json')
+    this.load.atlas('player-run', 'assets/spritesheets/run.png', 'src/assets/spritesheets/run.json')
   }
   create() {
     this.anims.create({
