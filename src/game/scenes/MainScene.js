@@ -1,3 +1,5 @@
+import Phaser from 'phaser'
+
 //JUST FOR DEMO FIXED 3 FRAMES
 const FRAMES = 3
 
@@ -83,7 +85,7 @@ export default class SceneMain extends Phaser.Scene {
     }
   }
 
-  updatePlayerTexture(hType: 0 | 1, bType: 0 | 1, lType: 0 | 1, player: Phaser.GameObjects.Sprite) {
+  updatePlayerTexture(hType, bType, lType, player) {
     // TEXTURE AND FRAMES
     if (this.textures.exists('player')) {
       this.textures.remove('player')
@@ -123,7 +125,6 @@ export default class SceneMain extends Phaser.Scene {
     const DEFAULT_TYPE = 0
     const headType = DEFAULT_TYPE
     const bodyType = DEFAULT_TYPE
-    const legsType = DEFAULT_TYPE
 
     this.info = this.add.text(320 - 10, 10, 'Player customization').setOrigin(1, 0)
 
@@ -146,7 +147,7 @@ export default class SceneMain extends Phaser.Scene {
     })
   }
 
-  drawPlayerSpriteFrame(canvas, idx, hType: 0 | 1, bType: 0 | 1, lType: 0 | 1) {
+  drawPlayerSpriteFrame(canvas, idx, hType, bType, lType) {
     const offsets = [
       { legs: 0, body: 0, head: 0 },
       { legs: 2, body: -2, head: 0 },
@@ -159,7 +160,7 @@ export default class SceneMain extends Phaser.Scene {
   }
 
   renderTexture() {
-    const rt = this.add.renderTexture(0, 0, 42 * FRAMES, 68)
+    this.add.renderTexture(0, 0, 42 * FRAMES, 68)
   }
 }
 

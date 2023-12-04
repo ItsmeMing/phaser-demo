@@ -75,13 +75,13 @@ export default class SceneMain2 extends Phaser.Scene {
     const space = this.input.keyboard?.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE)
     const player = this.add.sprite(200, 200, 'player-idle')
     player.play('idle')
-    space?.on('down', (key, e) => {
+    space?.on('down', () => {
       if (player.anims.currentAnim?.key === 'attack') return
       player.play('attack').on('animationcomplete', () => {
         player.play('idle')
       })
     })
-    this.input.keyboard?.on('keydown-W', (event) => {
+    this.input.keyboard?.on('keydown-W', () => {
       // Play the 'walk' animation when the W key is pressed
       if (player.anims.currentAnim?.key === 'run') return
       player.anims.play('run').on('animationcomplete', () => {
@@ -89,7 +89,7 @@ export default class SceneMain2 extends Phaser.Scene {
       })
     })
 
-    this.input.keyboard?.on('keyup-W', (event) => {
+    this.input.keyboard?.on('keyup-W', () => {
       // Stop the animation when the W key is released
       if (player.anims.currentAnim?.key === 'run') {
         player.play('idle')
